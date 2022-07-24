@@ -77,7 +77,7 @@ const List = ({ places, child, isLoading, type, onTypeChange, rating, onRatingCh
           </FormControl>
         </Grid>
       </Grid>
-      <Grid container spacing={2} style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', height: '80vh', overflowY: 'scroll', padding: '0 0.5rem 1.5rem 1.5rem', border: "1px solid red" }}>
+      <Grid container spacing={2} style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', height: '80vh', overflowY: 'scroll', padding: '0 0.5rem 1.5rem 1.5rem'}}>
         {renderTemplate}
       </Grid></>
   )
